@@ -21,10 +21,10 @@ jobs:
           distribution: temurin
           java-version: '8'
 
-      - name: Build with ForgeGradle
+      - name: Build with ForgeGradle 3
         uses: gradle/gradle-build-action@v2
         with:
-          gradle-version: '4.10.3'
+          gradle-version: '5.6.4'
           arguments: build --stacktrace
 
       - name: Upload mod JAR
