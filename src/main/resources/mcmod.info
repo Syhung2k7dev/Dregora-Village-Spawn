@@ -2,7 +2,7 @@
   {
     "modid": "dregoravillagespawn",
     "name": "Dregora Village Spawn",
-    "description": "Places a player's first spawn in a safe position inside or near the nearest village, when the world generator exposes Village structures.",
+    "description": "Places a player's first spawn at a safe village that meets the Desert, Ocean, and Ice Plains proximity rules.",
     "version": "1.0.0",
     "mcversion": "1.12.2",
     "url": "",
